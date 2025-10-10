@@ -10,6 +10,8 @@ image: https://drive.google.com/file/d/1Cl6nXDQFrBNmpyZlJTQFniID-xDC9Tk6/view?us
 
 The object of this assignment was to optimize the height difference and weight exerted on a bar as it was pushed upwards by an actuator. To do this, I started by completing a rough sketch of the system with all relevant variables. Once I had these variables, I decided to focus on optimizing weight, so I decided to give my actuator the greatest lever arm by placing it at the end of the bar, where the weight was placed. I also wanted to eliminate the angle phi from my sketch, so I set phi to equal 90-theta (creating a perpendicular angle). Then I was able to create the equation in one of the above images by taking the moment about the left-bottom corner, which I designated as the origin.
 
+Images: https://drive.google.com/file/d/1Cl6nXDQFrBNmpyZlJTQFniID-xDC9Tk6/view?usp=sharing
+
 I used an IMA 33 3-stack, which had an inital length of 21.67cm and a peak thrust force of 11.1KN.
 
 From there, I created the following python code in pycharm to plug random values in for the unknown variables, in order to optimize the problem:
